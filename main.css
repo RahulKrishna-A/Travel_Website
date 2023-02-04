@@ -92,7 +92,7 @@ body{
     flex-flow: column;
 }
 
-.header{
+#header{
     margin-left: auto;
     margin-right: auto;
     margin-top:40px;
@@ -159,3 +159,69 @@ body{
     padding-left: 900px;
 }
 /*part-4*/
+.four{
+    display: flex;
+    flex-direction: column;
+}
+.whitepart{
+    height:50vh;
+    background-color: white;
+    padding-top: 200px;
+}
+#login{
+
+    background-color: #3882f6;
+    height: 200px;
+    width: 70vw;
+    margin: auto auto 0 auto;
+    display: flex;
+
+}
+
+.signup1{
+font-size: 50px;
+    color: white;
+    padding-left: 200px;
+    padding-right: 500px;
+
+}
+.signup2{
+    padding-left: 200px;
+    padding-bottom: 500px;
+    font-size: 20px;
+    color: antiquewhite;
+
+}
+
+#login button{
+    margin-top:auto ;
+    margin-bottom: auto;
+    background-color: #3882f6;
+    font-size: 15px;
+    padding:8px 40px;
+    border-radius: 8px;
+    border-color: white;
+    color: #f9faf8;
+    font-family: "Arial Rounded MT Bold";
+}
+#about_me{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:50px
+
+
+}
+#about_me p{
+    font-size: 30px;
+    margin-left: 500px;
+    color: #e5e7eb;
+}
+#about_me a{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #d5922f;
+}
+#about_me a:hover{
+    color: darkred;
+}

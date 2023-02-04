@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #1F2937;
+    /*background-color: black;*/
     overflow-x: hidden;
 }
 .part{
@@ -45,9 +46,42 @@ body{
 }
 
 .image{
-    border-radius: 80px;
+    border-radius: 8px;
     margin-right: 150px;
 }
 .two{
     background-color: #e5e7eb;
+
 }
+.hero.text{
+    margin-right:100px ;
+    margin-left: 400px;
+}
+.hero1{
+    font-size: 68px;
+    font-family: "Brush Script MT", cursive;
+    color: #f9faf8;
+}
+.colortext{
+    color: #0e5252;
+}
+
+.hero2{
+    font-size: 20px;
+    color: #3e9393;
+    font-family: monospace;
+
+}
+
+.hero button{
+    background-color: #3882f6;
+    font-size: 15px;
+    padding:8px 40px;
+    border-radius: 8px;
+    border-color: white;
+    color: #f9faf8;
+    font-family: "Arial Rounded MT Bold";
+
+}
+
+/*PART TWO*/

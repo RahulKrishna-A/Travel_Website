@@ -84,4 +84,54 @@ body{
 
 }
 
+.hero.image:hover{
+    box-shadow: 4px 4px 10px 1px teal;
+}
 /*PART TWO*/
+.part.two{
+    flex-flow: column;
+}
+
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    font-family: "Franklin Gothic Medium";
+    font-style: italic;
+    font-size: 30px;
+}
+
+.headerphotos{
+
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    gap:20px;
+
+
+}
+.subimage{
+    display: flex;
+    flex-direction: column;
+}
+.subimage img{
+
+    height: 350px;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.subimage p{
+    font-size:23px;
+    padding-left: 120px;
+    font-family:"Franklin Gothic Demi","serif";
+    font-style: oblique;
+    color: teal;
+}
+.subimage img:hover{
+    box-shadow: 4px 4px 10px 1px red;
+}
+
+/*PART-3*/

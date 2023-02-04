@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    overflow-x: hidden;
+}
+.part{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar{
+    width: 100vw;
+    height:60px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+
+}
+#navlogo img{
+
+    height: 60px;
+    width: auto;
+    margin-left: 10px ;
+}
+#links{
+   margin:auto 220px auto auto;
+    display: flex;
+    gap:20px;
+   /* padding: 0px 100px 0px 0px;*/
+    font-size: 18px;
+}
+.link{
+    color: #e5e7eb;
+    text-decoration: none;
+
+}
+
+#hero{
+    display: flex;
+    height:50vh;
+    margin: auto 20px auto auto;
+
+}
+
+.image{
+    border-radius: 8px;
+    margin-right: 150px;
+}
+.two{
+    background-color: #e5e7eb;
+}

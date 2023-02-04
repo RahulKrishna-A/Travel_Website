@@ -3,7 +3,7 @@ body{
     padding: 0;
     background-color: #1F2937;
     /*background-color: black;*/
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 .part{
     height: 75vh;
@@ -54,8 +54,8 @@ body{
 
 }
 .hero.text{
-    margin-right:100px ;
-    margin-left: 400px;
+    margin-right:40px ;
+    margin-left: 5vw;
 }
 .hero1{
     font-size: 68px;
@@ -179,16 +179,16 @@ body{
 }
 
 .signup1{
-font-size: 50px;
+font-size: 2.5vw;
     color: white;
-    padding-left: 200px;
-    padding-right: 500px;
+    padding-left: 10vw;
+    padding-right: 20vw;
 
 }
 .signup2{
-    padding-left: 200px;
+    padding-left: 10vw;
     padding-bottom: 500px;
-    font-size: 20px;
+    font-size: 1vw;
     color: antiquewhite;
 
 }
